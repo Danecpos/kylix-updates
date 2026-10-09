@@ -1,11 +1,11 @@
 {
  "manifest": {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "date": "2026-10-10",
   "notes": {
-   "cs": "Prvn\u00ed verze KYLIX Studia s automatick\u00fdmi aktualizacemi.",
-   "en": "First KYLIX Studio release with automatic updates.",
-   "de": "Erste KYLIX-Studio-Version mit automatischen Updates."
+   "cs": "Ikona na plo\u0161e otev\u0159e KYLIX Studio (v Resolve Studio p\u0159\u00edmo, ve verzi zdarma uk\u00e1\u017ee zkratku).",
+   "en": "Desktop icon opens KYLIX Studio (directly in Resolve Studio, shows the shortcut in the free version).",
+   "de": "Desktop-Symbol \u00f6ffnet KYLIX Studio (direkt in Resolve Studio, in der Gratisversion mit Tastenk\u00fcrzel-Tipp)."
   },
   "packages": {
    "audio_ducking": {
@@ -29,7 +29,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "auto_reframe": {
     "file": "pkgs/auto_reframe-e145034fce81.kpk",
@@ -52,7 +52,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "beat_sync": {
     "file": "pkgs/beat_sync-a946bff2a787.kpk",
@@ -75,7 +75,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "caption_flow": {
     "file": "pkgs/caption_flow-c06e28793fdf.kpk",
@@ -111,7 +111,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "color_match": {
     "file": "pkgs/color_match-1f4374c23690.kpk",
@@ -135,7 +135,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "highlight_finder": {
     "file": "pkgs/highlight_finder-7d3928be4138.kpk",
@@ -158,7 +158,7 @@
      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "kylix_cutout": {
     "file": "pkgs/kylix_cutout-dea60715dba4.kpk",
@@ -185,7 +185,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "kylix_license": {
     "file": "pkgs/kylix_license-4e0eafd69501.kpk",
@@ -202,17 +202,18 @@
      "theme.py": "4ba8d22e5f299340d33c25c9491e29329a9d756e6201e7e2e731ed85d2af8912",
      "ui.py": "6d111d4d514b71c57ebdd1abe5bcca55e006b1ad26d3314201f2a95f3a72d540"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "kylix_studio": {
-    "file": "pkgs/kylix_studio-0cd1bef80c6c.kpk",
-    "sha256": "0cd1bef80c6c4ed55643a38ead6e337de52ba53f5b2d4de3004866eb45c168c6",
-    "size": 39171,
+    "file": "pkgs/kylix_studio-af45caca1f18.kpk",
+    "sha256": "af45caca1f1843f86cf7467c03768fb807fe71ac49211dab22f55c247ff25d33",
+    "size": 40445,
     "files": {
      "__init__.py": "d876388e233fc319273bc7d1b57e80f7a4627343086182ee1fa8d93ebbc5f62b",
      "core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "core/settings.py": "070fe59781791bb5b07029e2a5c2d9e91e171ec08ca3e9fb30071b4201d8b812",
      "core/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
+     "external.py": "95c18e8251a5c6c7e53a5d682fbefb01945f0fe668f205d82de0daeeea297f45",
      "host.py": "1f94bbf9f05cbdaf6cec7f59e073c09778fbdc67a60f719dea66dbf2386debd2",
      "i18n.py": "2b5e7fbe761d2e0d33142762766b05fce70f218f27063fa033e3deea690a626b",
      "tools.py": "1531c81d5f07e63660c16572e84bc7daa1115d7f8323bcd9c0ff2cab3cb5c5ef",
@@ -223,7 +224,7 @@
      "ui/theme.py": "4ba8d22e5f299340d33c25c9491e29329a9d756e6201e7e2e731ed85d2af8912",
      "updater.py": "8287aa1c5366f9df916cf47b2563ffcec85fa1f88bdca9bd3dfd9a0c85e01a38"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "markers": {
     "file": "pkgs/markers-afc2b911325a.kpk",
@@ -246,7 +247,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "medal_import": {
     "file": "pkgs/medal_import-13b7210c6aa5.kpk",
@@ -268,7 +269,7 @@
      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "multi_export": {
     "file": "pkgs/multi_export-69db5d67ba0a.kpk",
@@ -291,7 +292,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "one_click_cleanup": {
     "file": "pkgs/one_click_cleanup-149e75f16768.kpk",
@@ -329,7 +330,7 @@
      "utils/formatting.py": "3f7b8b0075170bbb4a52d5477670e7285ac94f177d5a6abe3b61c65817156268",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "project_organizer": {
     "file": "pkgs/project_organizer-e2f662740ec7.kpk",
@@ -352,7 +353,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "proxy_helper": {
     "file": "pkgs/proxy_helper-99a792e2851c.kpk",
@@ -375,7 +376,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "render_done": {
     "file": "pkgs/render_done-6b03b8265e02.kpk",
@@ -399,7 +400,7 @@
      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "sfx_search": {
     "file": "pkgs/sfx_search-a4618a9d0e84.kpk",
@@ -425,7 +426,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "thumbnail_maker": {
     "file": "pkgs/thumbnail_maker-1ed62742f0e6.kpk",
@@ -459,7 +460,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "youtube_asset_importer": {
     "file": "pkgs/youtube_asset_importer-bd5f86d66800.kpk",
@@ -489,7 +490,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/validation.py": "fcf26879f0596e33fa58aeeab9e62151f4d4365572c9a4eb8d14381ce7be0dc0"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    },
    "__scripts__": {
     "file": "pkgs/scripts-1e4062625426.kpk",
@@ -515,9 +516,9 @@
      "SFX Search.py": "bceab509c81fb2241b0db5f3f05167aad57269f92b02039488d4c9042908add0",
      "YouTube Asset Importer.py": "bf3396e3701c21e39d59e8de1efa971c1efbdc0d6b79712eb49f21159fe6468d"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
    }
   }
  },
- "sig": "PhUWddG/psEcTl6UMWaanGeIdMPEKriDP2fpkdW3nEO1M2PPg68oR2bYg39G8SNlQfyHS1difbO0ORq/uq97CA=="
+ "sig": "I2Xf6oBZaSpJ/1VGtjrmxfPVYmQHwxf7gOeFklJwRQQQOHmkwg5qTKTNghyfKACFctiWPSmKyU7Pd4EOnysCCQ=="
 }
