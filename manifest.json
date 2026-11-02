@@ -1,11 +1,11 @@
 {
  "manifest": {
-  "version": "2.1.0",
-  "date": "2026-11-01",
+  "version": "2.1.1",
+  "date": "2026-11-02",
   "notes": {
-   "cs": "KYLIX Studio 2.0: nov\u00fd vzhled a p\u00edsmo, hled\u00e1n\u00ed n\u00e1stroj\u016f, zkratky. Caption Flow 0.5: \u010dist\u00e1 prvn\u00ed obrazovka a galerie 21 vzhled\u016f. One Click Cleanup: st\u0159\u00edh\u00e1 bez vyskakovac\u00edch oken, zachov\u00e1 obr\u00e1zky. Proxy Helper: tla\u010d\u00edtko Zrychlit st\u0159ih. Rychlej\u0161\u00ed efekty.",
-   "en": "KYLIX Studio 2.0: new look and font, tool search, shortcuts. Caption Flow 0.5: clean first screen and a gallery of 21 looks. One Click Cleanup: cuts without pop-ups, keeps images. Proxy Helper: Speed up editing button. Faster effects.",
-   "de": "KYLIX Studio 2.0: neuer Look und Schrift, Tool-Suche, K\u00fcrzel. Caption Flow 0.5: aufger\u00e4umter Start und Galerie mit 21 Looks. One Click Cleanup: schneidet ohne Pop-ups, beh\u00e4lt Bilder. Proxy Helper: Schnitt beschleunigen. Schnellere Effekte."
+   "cs": "KYLIX Color 1.0.1: oprava p\u00e1du DaVinci p\u0159i vkl\u00e1d\u00e1n\u00ed barev (bez verz\u00ed gradu, \u017eiv\u00fd n\u00e1hled v Resolve je te\u010f vypnut\u00fd, dokud ho nezapne\u0161).",
+   "en": "KYLIX Color 1.0.1: fixes DaVinci crashing when applying the grade (no grade versions, live push into Resolve is off until you turn it on).",
+   "de": "KYLIX Color 1.0.1: behebt den Absturz von DaVinci beim Anwenden (keine Grade-Versionen, Live-\u00dcbertragung ist aus, bis du sie einschaltest)."
   },
   "packages": {
    "audio_ducking": {
@@ -29,7 +29,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "auto_reframe": {
@@ -53,7 +53,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "beat_sync": {
@@ -77,7 +77,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.1.0"
    },
    "caption_flow": {
@@ -119,7 +119,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "0.5.0"
    },
    "color_match": {
@@ -144,7 +144,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "highlight_finder": {
@@ -168,28 +168,28 @@
      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "kylix_color": {
-    "file": "pkgs/kylix_color-17ac532afd22.kpk",
-    "sha256": "17ac532afd2219edfaa61454f7c0c3f2829041db55ef070ab51cc224fd62df38",
-    "size": 71549,
+    "file": "pkgs/kylix_color-cfb51bf990a5.kpk",
+    "sha256": "cfb51bf990a5e51e54116fc61d7c283587db492b3cae7d6781aea7700bf6f86f",
+    "size": 71665,
     "files": {
-     "__init__.py": "5ee18468240783e9f095a07946d29e622dd6ccec496b3070b44abb26ee765fe1",
+     "__init__.py": "be91f73a98655513ecad64590766f112c602c89adc78fdbc85a065e6deae9dff",
      "core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "core/auto.py": "b89cee85f7c7524a7f8cd51e1aefe512e9273b5dbe2233503804d3e2fa15f44c",
      "core/grade.py": "8ee1a206171b80cc513075504c7f0b459d0266c526185fbb09c8f9421c98b975",
      "core/looks.py": "ad6f5f04ed2d1ce7d1502778264fa555918c3f905daf938cb27f59d959582537",
      "core/media.py": "8de3a5d9f9e27920c4132a2640b377abfb4bf2b7e864896a2bf888df366a80ab",
      "core/scopes.py": "fb9075ef4f10a5b32ad31ddd6a7ae2fa3aeefdff80e0601a2b0a2cdc1a537811",
-     "core/settings.py": "1a404bde12910ae10852a984c7e03f96d0010c0dacf7f4fa4c4938e38b5d5a11",
+     "core/settings.py": "91b9b3f28175d9fac5d08b242ce4ec6504510c57f160d75aa1d2dcde135c4e89",
      "i18n.py": "88324f2fa74ef78d99b7cc23ec1949990083d4d6d7aa45e21aa18167a95c4348",
      "resolve/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-     "resolve/bridge.py": "0fbb556b7cc709f224fd6016a4206f8e01dd8cada936b204d825bc1d246947b1",
+     "resolve/bridge.py": "95adce7314b8e9fe5a9cf2ff51efebd80718bcc1e719815778c87bd897fc2984",
      "ui/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "ui/kylix_logo.py": "8e84671f1e5305e96c1139b973a2f3b1152f8cc19b2edd0cf293ddbb6e8feb27",
-     "ui/main_window.py": "ae5701182e9ee87ed42cb6f808d2546f52f755dde837409db18769e8abb6d695",
+     "ui/main_window.py": "22fb1812abdbb82451c557c94e44d31ca5f2d33e7d1e291f6164330d1ca79651",
      "ui/rounded.py": "2ad68469ba02013b1009dca335171cc49265fb833920c6c9e25c55eea7a10e63",
      "ui/theme.py": "b5862f7a843e21821404d8ceeb8edcfe0c86e834d94fa32e8c4f239a2806a63a",
      "ui/widgets.py": "6081f91e12e3e745b2cd88d337b409c52bda48ae481be9e032a368833aed6fff",
@@ -197,8 +197,8 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
-    "tool_version": "1.0.0"
+    "version": "2.1.1",
+    "tool_version": "1.0.1"
    },
    "kylix_cutout": {
     "file": "pkgs/kylix_cutout-f2593ee93cd4.kpk",
@@ -225,7 +225,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.1"
    },
    "kylix_license": {
@@ -243,7 +243,7 @@
      "theme.py": "b5862f7a843e21821404d8ceeb8edcfe0c86e834d94fa32e8c4f239a2806a63a",
      "ui.py": "6d111d4d514b71c57ebdd1abe5bcca55e006b1ad26d3314201f2a95f3a72d540"
     },
-    "version": "2.1.0"
+    "version": "2.1.1"
    },
    "kylix_studio": {
     "file": "pkgs/kylix_studio-19441884186a.kpk",
@@ -268,7 +268,7 @@
      "ui/theme.py": "b5862f7a843e21821404d8ceeb8edcfe0c86e834d94fa32e8c4f239a2806a63a",
      "updater.py": "b3b57b29ceef187d796e5bf3c645d57978eaae98ccce53d901d535e7ecc53aad"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "2.0.0"
    },
    "markers": {
@@ -292,7 +292,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "medal_import": {
@@ -315,7 +315,7 @@
      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "multi_export": {
@@ -339,7 +339,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "one_click_cleanup": {
@@ -378,7 +378,7 @@
      "utils/formatting.py": "3f7b8b0075170bbb4a52d5477670e7285ac94f177d5a6abe3b61c65817156268",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "0.4.6"
    },
    "project_organizer": {
@@ -402,7 +402,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "proxy_helper": {
@@ -427,7 +427,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.1.0"
    },
    "render_done": {
@@ -452,7 +452,7 @@
      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "safe_zone": {
@@ -485,7 +485,7 @@
      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "sfx_search": {
@@ -512,7 +512,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "0.2.0"
    },
    "thumbnail_maker": {
@@ -547,7 +547,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/timecode.py": "f3dabf228e3416fc94becbacc2dfb9d618c2127a5848aa6a88d817fea9ad2e91"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "1.0.0"
    },
    "youtube_asset_importer": {
@@ -578,7 +578,7 @@
      "utils/tcl.py": "016f35e77b0547d431f109ef16975e50822a8dcbeaea7044ee37b141fcd37da6",
      "utils/validation.py": "fcf26879f0596e33fa58aeeab9e62151f4d4365572c9a4eb8d14381ce7be0dc0"
     },
-    "version": "2.1.0",
+    "version": "2.1.1",
     "tool_version": "0.2.0"
    },
    "__scripts__": {
@@ -607,9 +607,9 @@
      "SFX Search.py": "bceab509c81fb2241b0db5f3f05167aad57269f92b02039488d4c9042908add0",
      "YouTube Asset Importer.py": "bf3396e3701c21e39d59e8de1efa971c1efbdc0d6b79712eb49f21159fe6468d"
     },
-    "version": "2.1.0"
+    "version": "2.1.1"
    }
   }
  },
- "sig": "Wq4JBuk707lh+aQtZWtm4h5nR/qGDa2IbWHS2HDKIVb3d3UuTc+GJ4o7V2t9gQ9cDROFgBKOYJaRqr33nwOZDg=="
+ "sig": "1hsr65DlLIOikVSnjYm41TskGR+qhB+uAnUsvjLt62msrjd193qy+mCGUnXMjqIOMm1N0u9HuWjPpzgIlb7jAQ=="
 }
